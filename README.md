@@ -44,14 +44,16 @@ Git is widely used open-source software tracking application use to track projec
 * Step 1. Browse to the website [https://git-scm.com/downloads]
 * Step 2. Click on the download link for windows and allow the download to complete.
   
-    ![Screenshot 2023-08-06 183153](https://github.com/tanutripathy/My-First-Repository/assets/137702596/738b7440-2064-4f1e-8a51-9c0059892749)
+  ![Screenshot 2023-08-06 183153](https://github.com/tanutripathy/My-First-Repository/assets/137702596/2029d8cd-f2ee-43f6-ad37-0512f97db96c)
+
 * Step 3. Click on the downloaded installer file and select **yes** to continue.After selecting yes the Installation begins.
 * Step 4. Default component are automatically selected in this step so, click on **Next** to continue.
 * Step 5. The default git command line option select automatically.click **next** to continue.
 * Step 6.The default transport backend options are selected in this step. **Click** next to continue.  
 * Step 7.This is the last step that provides some extra features like system caching, credential management and symbolic link. click on the **next**
-  
-  ![Screenshot 2023-08-07 180952](https://github.com/tanutripathy/My-First-Repository/assets/137702596/4e5df79b-6401-4749-9f58-85c4909508c3)
+  ![Screenshot 2023-08-07 180952](https://github.com/tanutripathy/My-First-Repository/assets/137702596/19ca27da-3e70-4d2a-b6ca-0319cecdd9f4)
+
+
 * Step 8. The files are being extracted in this step.
  Therefore, git Installation process
  finished.
@@ -62,7 +64,8 @@ The clone command in git is used when we want to download an exisiting git repos
 STEPS:
 * step 1. Open your github account & go to github repository that you want to clone.
 *  steps2. Click on **code** & copy the URL.
-  ![Screenshot 2023-08-07 181755](https://github.com/tanutripathy/My-First-Repository/assets/137702596/e5531d81-4880-48f5-bee4-dfa2bacea689)
+![Screenshot 2023-08-07 181755](https://github.com/tanutripathy/My-First-Repository/assets/137702596/894483b9-cf0a-48f0-abf7-8ada4177c165)
+
 * step 3. Open gitbash & change the current directory to the location where you want the clone repository.
 * step 4.Type *git clone* in the terminal & paste the URL you copied & press *enter* to create a local clone.
  
@@ -73,7 +76,8 @@ STEPS:
 * step 2. From the left select **maven** option and choose JDK for the project,.
 * step 3. And name the maven project.
 * step 4. In maven archetype choose **quickstart**.& click on create.  
-![Screenshot 2023-08-07 182414](https://github.com/tanutripathy/My-First-Repository/assets/137702596/872a3155-f5f9-4b3d-b2a5-91d83e539976)
+
+![Screenshot 2023-08-07 182414](https://github.com/tanutripathy/My-First-Repository/assets/137702596/8f6f229c-074e-4143-8b4b-64b8de79a856)
 
 Maven project will be created.
 
@@ -92,13 +96,15 @@ Maven project will be created.
      * step 1. Go to  Maven Repository:[https://mvnrepository.com/ ]
      * step 2. search for **Selenium Java** 
      * step 3. Than choose the version **(version 4.10.0)**
-![Screenshot 2023-08-07 182715](https://github.com/tanutripathy/My-First-Repository/assets/137702596/21df569d-38dc-42cb-8f74-6c9e1e370d36)
+![Screenshot 2023-08-07 182715](https://github.com/tanutripathy/My-First-Repository/assets/137702596/aa9233b5-42e1-49d3-9a8f-cc2a0050f10c)
+
       * step 4. Copy the dependency and paste it in POM.xml file in maven project.
 
  * Cucumber: To add Cucumber dependencies do the following: 
     * step 1. Go to  Maven Repository:[https://mvnrepository.com/ ] OR [https://cucumber.io/docs/cucumber/checking-assertions/].
     * step 2. search for *"Cucumber Java"*
-![Screenshot 2023-08-07 183012](https://github.com/tanutripathy/My-First-Repository/assets/137702596/dec8195c-703a-4b09-9ae2-f9bc1c2b95de)
+![Screenshot 2023-08-07 183012](https://github.com/tanutripathy/My-First-Repository/assets/137702596/bd4311a8-720d-4d9f-916c-bfb06d250177)
+
      * step 3. Than select the version **7.13.0**.
     * step 4. Copy the dependency & paste it after selenium dependency.
 
@@ -106,7 +112,8 @@ Maven project will be created.
     * step 1. Go to  Maven Repository:[https://mvnrepository.com/ ] OR [https://cucumber.io/docs/cucumber/checking-assertions/].
    * step 2. search for *"Cucumber Junit"*
    * step 3. Than select the version **7.13.0**.
-       ![Screenshot 2023-08-07 183012](https://github.com/tanutripathy/My-First-Repository/assets/137702596/b4e95f6c-81d7-41a3-9373-18c5b235e9e4)
+![Screenshot 2023-08-07 183129](https://github.com/tanutripathy/My-First-Repository/assets/137702596/4a0f1b12-098d-4322-8af9-a408b6bdbafe)
+
       * step 4. Copy the dependency & paste it after cucumber Java dependency.
    
 ### BDD Framework Structure in Maven project
@@ -121,6 +128,7 @@ Packages
 * Step 1. Open your maven project in intellij & in the left Select src -> test -> Java.
 * step 2. Right click on java than select New -> Package
  * step 3. Name the Package,the Package will be created.
-![Screenshot 2023-08-04 194828](https://github.com/tanutripathy/My-First-Repository/assets/137702596/b9ac8f2b-30f1-4ca5-a88c-a94a83cbe781)
+
+![Screenshot 2023-08-08 133827](https://github.com/tanutripathy/My-First-Repository/assets/137702596/4bdb124d-4689-4348-b464-1fa7783175d0)
 
     Similariy for next all packages.
