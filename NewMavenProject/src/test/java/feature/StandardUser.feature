@@ -2,13 +2,13 @@ Feature:
 
   Background:
     Given the user should navigate to home page
-
+@RegressionTest
   Scenario: Verify the login page with valid credential
     When the user enter "standard_user" in the username field
     And the user enter "secret_sauce" in the password field
     And the user click on login button
     Then the user can see "Products" text on the page
-
+@SanityTest
   Scenario: 2.Verify the login page with no password
     When the user enter "standard_user" in the username field
     And the user click on login button
