@@ -5,7 +5,7 @@ Feature:
 @RegressionTest
   Scenario: Verify the login page with valid credential
     When the user enter "standard_user" in the username field
-    And the user enter "secret_sauce" in the password field
+    And the user enter "secret_sauce5" in the password field
     And the user click on login button
     Then the user can see "Products" text on the page
 @SanityTest

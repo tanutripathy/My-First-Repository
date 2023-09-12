@@ -21,6 +21,7 @@ public class CucumberHooks extends WebConnector {
             // embed it in the report
             scenario.attach(screenshot, "image/png", scenario.getName().replace(" ", "_") + "_ErrorScreenshot");
         }
-       // closeBrowser();
+            closeBrowser();
+
     }
 }
