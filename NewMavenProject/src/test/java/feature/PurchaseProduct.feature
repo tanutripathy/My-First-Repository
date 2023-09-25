@@ -36,7 +36,7 @@ Scenario:1 Verify the user can add product in the cart and remove it from cart
     And the user click on continue
     And the user can see "Error: Postal Code is required" text on the page
     @lucky
-  Scenario:4 Verify the checkout process without last name
+  Scenario:5 Verify the checkout process without last name
     When the user add flecee jacket,red Tshirt and black Tshirt in the cart
     Then the user click on cart
     And the user click on checkout
@@ -44,7 +44,7 @@ Scenario:1 Verify the user can add product in the cart and remove it from cart
     And the user click on continue
     And the user can see "Error: Last Name is required" text on the page
     @lucky
-Scenario: Verify the product price in checkout overview
+Scenario:6 Verify the product price in checkout overview
     When the user add flecee jacket,red Tshirt and black Tshirt in the cart
     Then the user click on cart
     And the user click on checkout
@@ -52,7 +52,7 @@ Scenario: Verify the product price in checkout overview
     And the user click on continue
   Then the user can see "Total: $88.53" text on the page
   @lucky
-Scenario:
+Scenario:7
   When the user add flecee jacket,red Tshirt and black Tshirt in the cart
   Then the user click on cart
   And the user click on checkout
@@ -62,7 +62,7 @@ Scenario:
   Then the user click on finish 
   And the user can see "Thank you for your order!" text on the page
   @lucky
- Scenario:
+ Scenario:8
     Then the user click on sauce labs backpack imqage
     And the user click on add to cart
     And the user click on cart
